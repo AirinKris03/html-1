@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form HTML</title>
+    <meta property="og:title" content="Form HTML">
+    <meta property="og: description" content="Form HTML">
+    <meta property="og:image" content="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+    <meta property="og:url" content="https://www.google.com/">
+  </head>
+  <body>
+    <!-- STRUKTUR DASAR WEB -->
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <section></section>
+        </article>
+    </main>
+    <aside></aside>
+    <footer></footer>
+    <!-- END STRUKTUR DASAR WEB -->
+
+    <!-- HTML FORMULIR -->
+    <h1>HTML Formulir</h1>
+    <form action="">
+      <div>
+        <label for="name-input">Nama</label>
+        <input
+          type="text"
+          name="name"
+          required
+          minlength="3"
+          id="name-input"
+          placeholder="Masukkan Nama"
+        />
+      </div>
+      <div>
+        <label for="email-input">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email-input"
+          placeholder="Masukkan Email"
+        />
+      </div>
+      <div>
+        <label for="phone-input">Phone Number</label>
+        <input
+          type="tel"
+          name="phone"
+          id="phone-input"
+          minlength="10"
+          maxlength="13"
+          placeholder="Masukkan Nomor Telepon Anda"
+        />
+      </div>
+
+      <input type="date" name="date" id="date-input"/>
+      <input type="datetime" name="" id="">
+      <input type="color" name="" id="">
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
